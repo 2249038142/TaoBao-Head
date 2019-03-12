@@ -1,0 +1,1416 @@
+body {
+    background: #f4f4f4;
+    color: #3C3C3C;
+    max-width: 1920px;
+    min-width: 1180px;
+    margin: 0 auto;
+}
+
+.widthMain {
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: iconfont;
+    src: url(http://at.alicdn.com/t/font_1404888168_2057645.eot);
+    src: url(http://at.alicdn.com/t/font_1404888168_2057645.eot?#iefix) format("embedded-opentype"), url(http://at.alicdn.com/t/font_1404888168_2057645.woff) format("woff"), url(http://at.alicdn.com/t/font_1404888168_2057645.ttf) format("truetype"), url(http://at.alicdn.com/t/font_1404888168_2057645.svg#uxiconfont) format("svg")
+}
+
+.iconfont {
+    font-family: iconfont;
+    font-size: 12px;
+    font-style: normal;
+    margin-top: -3px\9;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscaleFont type;
+    margin-right: 5px;
+    _line-height: 33px;
+    color: #9c9c9c
+}
+
+@font-face {
+    font-family: iconfont2;
+    src: url(http://at.alicdn.com/t/font_1475912685_3576825.eot);
+    src: url(http://at.alicdn.com/t/font_1475912685_3576825.eot?#iefix) format("embedded-opentype"), url(http://at.alicdn.com/t/font_1475912685_3576825.woff) format("woff"), url(http://at.alicdn.com/t/font_1475912685_3576825.ttf) format("truetype"), url(http://at.alicdn.com/t/font_1475912685_3576825.svg#iconfont) format("svg")
+}
+
+.iconfont2 {
+    font-family: iconfont2 !important;
+    font-size: 14px;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.navTop {
+    background: #f5f5f5;
+    height: 35px;
+    font-size: 90%;
+    color: #888;
+    position: relative;
+}
+
+.navTop a {
+    line-height: 35px;
+    padding-top: 7px;
+    color: #888;
+}
+
+.navTop span {
+    font-size: 80%;
+}
+
+.navTop-l {
+    float: left;
+    margin-left: 40px;
+}
+
+.navTop-l li {
+    float: left;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.dropdown-menu li {
+    float: none;
+}
+
+.navTop-r {
+    float: right;
+    margin-right: 30px;
+}
+
+.navTop-r li {
+    float: left;
+    padding-left: 8px;
+    padding-right: 7px;
+}
+
+.navTop a:hover {
+    color: #f40;
+}
+
+.orange {
+    color: #f40 !important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown {
+    height: 35px;
+}
+
+.dropdown:hover {
+    background: white;
+    border-left: .1px solid #ccc;
+    border-right: .1px solid #ccc;
+}
+
+.nav-box {
+    position: absolute;
+    z-index: 9999;
+    left: 0px;
+    top: 35px;
+    width: 1190px;
+    height: 200px;
+    border: 1px solid #eee;
+    border-top: none;
+    background: #fff;
+    display: none;
+}
+
+.sub-nav {
+    position: relative;
+    margin: 25px auto;
+}
+
+.sub-nav-cell {
+    float: left;
+    width: 297px;
+    padding-left: 15px;
+    height: 100%;
+    border-right: 1px solid #eee;
+}
+
+.sub-nav-box li {
+    display: inline-block;
+    margin: 2px 2px;
+    height: 25px;
+    line-height: 25px;
+    width: 58px;
+    text-align: center;
+}
+
+.green {
+    color: #a0b959;
+}
+
+.red-now {
+    color: #df61ab;
+}
+
+.blue-more {
+    color: #55a1e5;
+}
+
+.sub-nav-cell>h3 {
+    margin-bottom: 7px;
+    font-size: 15px;
+}
+
+.search-box>span {
+    position: relative;
+    float: left;
+    right: -10px;
+    top: 10px;
+    font-size: 16px;
+    color: #666;
+    z-index: 2;
+}
+
+.wrap-fixed>.widthMain>img {
+    z-index: 1002;
+    position: fixed;
+    top: 0;
+    left: 12%;
+    height: 70px;
+}
+
+.wrap-fixed .top {
+    z-index: 1001;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    padding: 7px 0;
+    background: #FFF;
+    overflow: visible;
+}
+
+.wrap-fixed .search-box {
+    position: fixed;
+    left: 35%;
+}
+
+.main {
+    width: 100%;
+}
+
+.mainSearch {
+    height: 150px;
+    background: #fff;
+}
+
+.mainSearch img {
+    float: left;
+    padding: 10px 20px 10px 50px;
+}
+
+.search-three {
+    padding-left: 10px;
+}
+
+.search-three li {
+    float: left;
+    padding-left: 4px;
+}
+
+.search-three li>a {
+    padding: 3px;
+}
+
+.search-three li>a:hover {
+    background: rgb(255, 230, 202);
+    color: #f40;
+}
+
+.threeOrange {
+    background: #f40;
+    color: #fff;
+}
+
+.search-box {
+    float: left;
+    width: 650px;
+    height: 40px;
+    border-radius: 25px;
+    border: 2px solid #f50;
+}
+
+.other-search {
+    clear: both;
+}
+
+.boldback>a {
+    background-color: #f40;
+    color: white!important;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.search-in {
+    float: left;
+    width: 544px;
+    height: 36px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.search-but {
+    float: left;
+    width: 86px;
+    height: 36px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    letter-spacing: 5px;
+    background: #f50;
+    color: #fff;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.search-wrapper {
+    padding-left: 80px;
+    padding-top: 40px;
+    float: left;
+}
+
+.two-code {
+    float: right;
+    position: relative;
+    width: 75px;
+    height: 95px;
+    text-align: center;
+    border: 1px solid #eee;
+    color: #f40;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+.two-code>img {
+    width: 100%;
+    height: 83%;
+    padding: 4px;
+}
+
+.close-code {
+    position: absolute;
+    top: -1px;
+    left: -20px;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    border: 1px solid #eee;
+    font-size: 10px;
+    color: #d8d8d8;
+    cursor: pointer;
+}
+
+.headNav {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #f4f4f4;
+    background: linear-gradient(to right, #ff9000 0, #ff5000 100%);
+}
+
+.headNav a {
+    padding: 5px 5px;
+    height: 29px;
+    margin: 0 8px;
+    color: #f4f4f4;
+}
+
+.leftTitle {
+    width: 190px;
+    background: #f40;
+    display: inline-block;
+    text-align: center;
+}
+
+.headNav>a:hover::before {
+    content: '';
+    width: 50px;
+    height: 30px;
+    background: url(../imgs/tianmao.png) top center;
+    background-size: 100% auto;
+    position: absolute;
+    top: 155px;
+    z-index: 99999;
+}
+
+.left-side {
+    border: 1px solid #f40;
+    padding: 6px 1px;
+    width: 190px;
+    height: 520px;
+    float: left;
+    position: relative;
+    background: #fff;
+}
+
+.left-side li {
+    width: 100%;
+    height: 32px;
+    padding-left: 20px;
+    line-height: 31px;
+}
+
+.left-side li:hover {
+    background: #ffe4dc;
+}
+
+.hiden-box :hover {
+    background: none;
+}
+
+.hiden-box {
+    z-index: 4888;
+    width: 709px;
+    height: 520px;
+    border: 2px solid #f40;
+    background: #fff;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    left: 188px;
+    top: 0px;
+}
+
+.hiden-box>li {
+    width: 96%;
+    margin: auto;
+    height: 100%;
+}
+
+.sub-nav-left {
+    width: 66%;
+    float: left;
+    border-right: .1px solid #d8d8d8;
+    padding: 25px;
+}
+
+.cell-box {
+    line-height: 30px;
+    height: 170px;
+}
+
+.cell-box>h2 {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.cell-box h2>a {
+    font-size: 70%;
+    font-weight: normal;
+    float: right;
+    padding-right: 15px;
+}
+
+.side-li span {
+    float: right;
+    padding-right: 10px;
+    font-size: 80%;
+    opacity: .8;
+}
+
+.sub-nav-right h2 {
+    text-align: center;
+    font-size: 120%;
+    padding: 15px;
+}
+
+.sub-nav-right img {
+    display: block;
+    width: 98px;
+    height: 97px;
+    background: #ccc;
+    opacity: 0.8;
+}
+
+.sub-nav-right a {
+    font-size: 12px;
+    overflow: hidden;
+    font-weight: 400;
+}
+
+.guessLike {
+    display: inline-block;
+    width: 110px;
+    height: 140px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.guessLike img:hover {
+    opacity: 1;
+}
+
+.hide {
+    display: none;
+}
+
+.fafa {
+    position: absolute;
+    overflow: hidden;
+    width: 3640px;
+    height: 280px;
+    transition-duration: 0.3s;
+}
+
+.midTF {
+    position: relative;
+    width: 520px;
+    height: 280px;
+    margin: 9px;
+    box-shadow: 0 0 5px white;
+    overflow: hidden;
+    float: left;
+}
+
+.mid-side {
+    width: 710px;
+    height: 520px;
+    background: #f4f4f4;
+    float: left;
+}
+
+.wrap {
+    position: absolute;
+    z-index: 1;
+    transition: all .5s;
+}
+
+.wrap img {
+    float: left;
+}
+
+.buttons {
+    position: absolute;
+    left: 230px;
+    bottom: 15px;
+    width: 70px;
+    height: 15px;
+    z-index: 3;
+    background: rgba(255, 255, 255, .3);
+    padding-left: 4px;
+    border-radius: 10px;
+}
+
+.tops {
+    position: absolute;
+    left: 0px;
+    top: 18px;
+    width: 520px;
+    height: 3px;
+    z-index: 2;
+    background: #ff1648;
+}
+
+.tops span {
+    display: inline-block;
+    width: 170px;
+    height: 2.5px;
+    cursor: pointer;
+    position: relative;
+    top: -12.5px;
+}
+
+.tops span.on {
+    background-color: black;
+}
+
+.buttons span {
+    margin-left: 1px;
+    margin-bottom: 4px;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons span.on {
+    background-color: red;
+}
+
+.arrow {
+    position: absolute;
+    top: 40%;
+    color: #eee;
+    padding: 3px;
+    font-size: 20px;
+    z-index: 2;
+    display: none;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.arrow_left {
+    left: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.arrow_right {
+    left: 500px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.midTF:hover .arrow {
+    display: block;
+    transition: .5s;
+}
+
+.midBF:hover .arrow {
+    display: block;
+    transition: .5s;
+}
+
+.arrow:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.midTR img {
+    float: left;
+    margin: 9px 9px 9px 0;
+}
+
+.midBR img {
+    float: left;
+    margin: 9px 9px 9px 0;
+}
+
+.midBR {
+    float: left;
+    font-size: 90%;
+    color: rgb(139, 139, 139);
+}
+
+.midBF {
+    position: relative;
+    width: 520px;
+    height: 220px;
+    margin: 0 10px 10px 10px;
+    overflow: hidden;
+    float: left;
+}
+
+.midBF h3 {
+    font-size: 90%;
+    color: #555;
+}
+
+.midBF h3>img {
+    width: 150px;
+    height: 20px;
+    padding-right: 15PX;
+}
+
+.midBF h3>span {
+    float: right;
+}
+
+.midBF h3>span>em {
+    color: #f40;
+}
+
+.wrap2 img {
+    height: 198px;
+    width: 130px;
+}
+
+.right-side {
+    float: right;
+    width: 290px;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.member {
+    padding: 3px 0 10px 0;
+    height: 142px;
+    padding-right: inherit;
+    text-align: center;
+    background-color: white;
+}
+
+.seaMain {
+    margin: 0 auto;
+    width: 1190px;
+    height: 632px;
+    position: relative;
+}
+
+.member-bd img {
+    display: block;
+    border-radius: 50%;
+    margin: 5px auto;
+}
+
+.member-tjb a {
+    border-radius: 9px;
+    background-clip: padding-box;
+    background: #ffe4db;
+    padding: 0 10px 0 20px;
+    position: relative;
+    border: none;
+    color: #ff5000 !important;
+    font-size: 95%;
+}
+
+.member-ft button {
+    margin-top: 10px;
+    color: #fff;
+    background-image: linear-gradient(to right, #ff5000 0, #ff6f06 100%);
+    background-repeat: repeat-x;
+    border-radius: 4px;
+    background-clip: padding-box;
+    font-size: 14px;
+    font-weight: 700;
+    width: 92px;
+    height: 25px;
+    border: none;
+}
+
+.tbh-tipoff a {
+    position: relative;
+    padding-left: 82px;
+    color: #f40;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    background: #ffe4dd;
+    font-size: 12px;
+}
+
+.notice {
+    background: #fff;
+    height: 108px;
+    padding-top: 10px;
+    width: 290px;
+    font-size: 90%;
+}
+
+.notice-hd {
+    position: relative;
+    height: 24px;
+    margin-top: 4px;
+    overflow: hidden;
+    margin-right: -2px;
+    padding: 0 8px;
+}
+
+.notice-hd li {
+    padding: 0;
+    font-weight: 700;
+    float: left;
+    line-height: 20px;
+    width: 32px;
+    text-align: center;
+    margin: 0 11px;
+}
+
+.notice-hd li:first-child {
+    border-bottom: 2px solid #F40;
+}
+
+.notice-bd .mod li {
+    float: left;
+    line-height: 25px;
+    height: 25px;
+    width: 130px;
+    overflow: hidden;
+}
+
+.mod {
+    margin: 0 12px;
+    height: 70px;
+    overflow: hidden;
+    padding-top: 9px;
+    padding-bottom: 6px;
+}
+
+.first li:first-child {
+    width: 260px;
+}
+
+.conve-list li {
+    float: left;
+    width: 72px;
+    height: 75px;
+    border: 1px solid #f4f4f4;
+    background-color: #fff;
+}
+
+.con12>a {
+    width: 72px;
+    height: 75px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.con12 a>span {
+    margin: 10px auto;
+    font-size: 200%;
+    color: #c25bfd;
+}
+
+.conve {
+    position: relative;
+}
+
+.conve-box {
+    position: absolute;
+    margin-top: -5px;
+    right: 2px;
+    width: 288px;
+    height: 156px;
+    z-index: 100;
+    background: white;
+    border: 1px solid #f40;
+}
+
+.conve-tabs {
+    margin: 10px;
+}
+
+.conve-tabs>a {
+    padding-right: 20px;
+}
+
+.conve-box {
+    padding-left: 15px;
+    overflow: hidden;
+}
+
+.longCharge {
+    width: 1000px;
+    position: absolute;
+    transition: all .5s;
+}
+
+.conve-input {
+    float: left;
+    width: 275px;
+}
+
+.conve-input input {
+    height: 25px;
+    display: block;
+    width: 165px;
+}
+
+.conve-input select {
+    height: 25px;
+    width: 80px;
+}
+
+.conve-input:first-child select {
+    width: 165px;
+}
+
+.conve-input p {
+    color: rgb(129, 129, 129);
+    padding: 5px 0 5px 5px;
+}
+
+.conve-input em {
+    font-weight: bold;
+    color: #f40;
+}
+
+.conve-input button {
+    color: #fff;
+    background-image: linear-gradient(to right, #ff5000 0, #ff6f06 100%);
+    background-repeat: repeat-x;
+    border-radius: 4px;
+    background-clip: padding-box;
+    font-size: 14px;
+    font-weight: 700;
+    width: 92px;
+    height: 25px;
+    border: none;
+    display: block;
+}
+
+.closeC {
+    float: right;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    color: #aaa;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.botTouTiao {
+    background-color: #fff;
+    width: 890px;
+    height: 100px;
+    float: left;
+    margin-top: 10px;
+}
+
+.botTouTiao>span>a {
+    float: right;
+    z-index: 10;
+    position: relative;
+    top: -100px;
+}
+
+.botTitle {
+    float: left;
+    width: 180px;
+    height: 73px;
+    margin: 20px;
+    color: #999;
+}
+
+.botTitle img {
+    width: 150px;
+}
+
+.botSlice {
+    float: left;
+    width: 666px;
+    overflow: hidden;
+    height: 100px;
+}
+
+.highPic {
+    height: 100px;
+    padding-top: 15px;
+    position: relative;
+    top: 0px;
+    transition: .5s;
+}
+
+.highPic h4 {
+    margin-top: 2px;
+    margin-left: 144px;
+    color: #333;
+    height: 28px;
+    overflow: hidden;
+    display: block;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.highPic p {
+    margin-left: 144px;
+    color: #999;
+    height: 36px;
+    overflow: hidden;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.highPic img {
+    float: left;
+    width: 130px;
+    height: 70px;
+}
+
+.tubiao img {
+    width: 32px;
+    height: 32px;
+    margin: 5px 0px 5px 0px;
+}
+
+.tubiao a {
+    margin: 5px 0px 0px 15px;
+}
+
+.apps-nav li {
+    display: inline;
+    position: relative
+}
+
+.app-qr {
+    right: -25px;
+    bottom: 25px;
+    width: 90px;
+    height: 102px;
+    background: #FFF;
+    border: 1px solid #dedede;
+    text-align: center;
+    display: none;
+    position: absolute;
+    z-index: 3;
+}
+
+.app-qr img {
+    width: 66px;
+    height: 66px;
+    padding: 12px;
+}
+
+.aliApp {
+    padding: 10px;
+    position: relative;
+    top: 3px;
+    background-color: #fff;
+    height: 117px;
+    width: 290px;
+    clear: both;
+}
+
+.aliApp>h3 {
+    font-size: 120%;
+    font-weight: bolder;
+}
+
+.aliApp h3>a {
+    font-size: 80%;
+    font-weight: normal;
+    float: right;
+}
+
+.layer-inner {
+    margin: 10px auto;
+    width: 1190px;
+    height: 658px;
+}
+
+.love-shopping h3>img {
+    height: 24px;
+}
+
+.goods-list a {
+    display: block;
+    float: left;
+    width: 180px;
+    overflow: hidden;
+    margin: 20px 4px 17px 0;
+    height: 270px;
+}
+
+.extra {
+    line-height: 22px;
+    height: 22px;
+    margin-top: 12px;
+    color: #35b1ff!important;
+}
+
+.img-wrapper img:hover {
+    opacity: .9;
+}
+
+.img-wrapper {
+    background-color: #111;
+    width: 180px;
+    height: 180px;
+}
+
+.img-wrapper img {
+    width: 100%;
+    height: 180px;
+    display: block;
+    transition: all .2s;
+}
+
+.goods-hd span {
+    color: #666;
+}
+
+.goods-hd a {
+    float: right;
+}
+
+.goods-inner h3>img {
+    height: 24px;
+}
+
+.goods-info {
+    overflow: hidden;
+    padding: 0 4px 0 6px;
+}
+
+.goods-info h4 {
+    margin-top: 5px;
+    font-size: 16px;
+    height: 28px;
+    overflow: hidden;
+    line-height: 28px;
+    font-weight: normal;
+}
+
+.goods-info p {
+    line-height: 24px;
+    color: #999;
+    font-size: 14px;
+    overflow: hidden;
+    height: 24px;
+}
+
+.love-shopping {
+    width: 590px;
+    float: left;
+    height: 658px;
+    background: #fff;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+.purchase h3>img {
+    height: 24px;
+}
+
+.lastTime {
+    display: inline-block;
+    color: #f40;
+}
+
+.lastTime span {
+    background: rgb(255, 230, 202);
+    padding: 2px 3px;
+    border-radius: 4px;
+}
+
+.PG-info>p {
+    margin-top: 12px;
+    line-height: 28px;
+    color: #999;
+}
+
+.progress {
+    height: 8px;
+    background-color: #FFE4Dc;
+    margin: 0;
+}
+
+.PG-info {
+    margin-left: 190px;
+}
+
+.PG-info h4 {
+    margin-top: 11px;
+    line-height: 22px;
+    height: 44px;
+    overflow: hidden;
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+}
+
+.cutPrice {
+    margin-top: 10px;
+}
+
+.cutPrice>.yuan {
+    font-size: 20px;
+    color: #ff5000;
+}
+
+.cutPrice>.price {
+    color: #999;
+    margin-left: 6px;
+    text-decoration: line-through;
+}
+
+.decs {
+    color: #f40;
+}
+
+.decs span {
+    float: right;
+}
+
+.purGoods li {
+    float: left;
+    width: 375px;
+    padding: 0 20px 0 20px;
+}
+
+.purGoods img {
+    width: 180px;
+    height: 180px;
+    float: left;
+}
+
+.goods-inner {
+    width: 590px;
+    float: left;
+    height: 658px;
+    background: #fff;
+    padding: 15px;
+}
+
+.purchase>h3 {
+    width: 100%;
+    height: 24px;
+    margin: 10px 2px;
+    color: #999;
+}
+
+.purchase h3>a {
+    float: right;
+    padding-right: 10px;
+    color: #999;
+}
+
+.purchase {
+    height: 264px;
+    overflow: hidden;
+    width: 1190px;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.help h3 {
+    text-align: center;
+    color: #ccccd0;
+    line-height: 20px;
+    font-size: 18px;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.help {
+    margin: 0 auto;
+    width: 1190px;
+    height: 260px;
+    border-bottom: 1px solid #aaa;
+}
+
+.help-info {
+    float: left;
+    width: 286px;
+    padding-left: 10px;
+    margin: 30px 0 0 0;
+    height: 100px;
+    border-right: 1px solid #eee;
+}
+
+.help-info:last-child {
+    border-right: none;
+}
+
+.help-info h2 {
+    height: 40px;
+    line-height: 40px;
+}
+
+.help-text {
+    vertical-align: top;
+    font-size: 16px;
+    margin-left: 9px;
+    color: #3e3e3f;
+}
+
+.help-a,
+.help-a-litter {
+    display: inline-block;
+    margin: 10px 15px 0 5px;
+}
+
+.help-a-litter {
+    margin: 10px 10px 0 5px;
+}
+
+.margin-r {
+    margin-right: 0;
+}
+
+#footer {
+    overflow: hidden;
+    background-color: #fff
+}
+
+#footer .link {
+    padding: 10px 0;
+    line-height: 25px;
+    border-bottom: 1px solid #ccc
+}
+
+#footer .link a {
+    margin: 0 2px
+}
+
+#footer .about {
+    line-height: 30px
+}
+
+#footer .about a {
+    margin: 0 2px
+}
+
+#footer .about span {
+    padding-left: 20px;
+    color: #aaa
+}
+
+#footer .supervise .text {
+    line-height: 30px
+}
+
+#footer .supervise .text span {
+    margin: 0 2px;
+    color: #aaa
+}
+
+#footer .supervise .text i {
+    background-position: -861px 0;
+    width: 20px;
+    height: 20px
+}
+
+#footer .footer-ico {
+    display: inline-block;
+    vertical-align: middle;
+    background: url(https://img.alicdn.com/tps/TB1cvKQPXXXXXXnapXXXXXXXXXX-880-35.jpg) no-repeat
+}
+
+.fixedtool {
+    right: -40px;
+    position: absolute;
+    top: 280px;
+    width: 50px;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 5px;
+    display: block;
+    z-index: 10;
+}
+
+.fixedtool a {
+    display: block;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+}
+
+.fixedtool a:hover {
+    color: #fff;
+    background-color: #f40;
+}
+
+.fixedtool a:hover em {
+    border-color: transparent;
+}
+
+.fixedtool a:first-child em {
+    border-top: none;
+}
+
+.fixedtool em {
+    display: block;
+    height: 100%;
+    line-height: 50px;
+    font-size: 13px;
+    margin: 0 10px;
+    border-top: 1px solid #ddd;
+    overflow: hidden
+}
+
+.fixedtool .s em {
+    padding-top: 5px;
+    font-size: 12px;
+    line-height: 20px
+}
+
+.fixedtool .s em i {
+    display: block;
+    width: 100%;
+}
+
+.fixedtool .f1 {
+    color: #f40;
+}
+
+.fixedtool .f1.on,
+.fixedtool .f1:hover {
+    background-image: linear-gradient(135deg, #ff971b, #ff5000);
+}
+
+.fixedtool .f1.on em,
+.fixedtool .f1:hover em {
+    color: #fff;
+    border-color: transparent;
+    font-weight: bold;
+}
+
+.fixedtool .f2 {
+    color: #f05;
+}
+
+.fixedtool .f2.on,
+.fixedtool .f2:hover {
+    background-image: linear-gradient(135deg, #ff971b, #ff5000);
+}
+
+.fixedtool .f2.on em,
+.fixedtool .f2:hover em {
+    color: #fff;
+    border-color: transparent;
+    font-weight: bold;
+}
+
+.fixedtool .f3 {
+    color: #8d7afb;
+}
+
+.fixedtool .f3.on,
+.fixedtool .f3:hover {
+    background-image: linear-gradient(135deg, #ff971b, #ff5000);
+}
+
+.fixedtool .f3.on em,
+.fixedtool .f3:hover em {
+    color: #fff;
+    border-color: transparent;
+    font-weight: bold;
+}
+
+.fixedtool .f5 {
+    color: #9bc459
+}
+
+.fixedtool .f5.on,
+.fixedtool .f5:hover {
+    background-image: linear-gradient(135deg, #ff971b, #ff5000);
+}
+
+.fixedtool .f5.on em,
+.fixedtool .f5:hover em {
+    color: #fff;
+    border-color: transparent;
+    font-weight: bold;
+}
+
+.fixedtool .f6 {
+    color: #F40
+}
+
+.fixedtool .f6.on,
+.fixedtool .f6:hover {
+    background-image: linear-gradient(135deg, #ff971b, #ff5000);
+}
+
+.fixedtool .f6.on em,
+.fixedtool .f6:hover em {
+    color: #fff;
+    border-color: transparent;
+    font-weight: bold;
+}
