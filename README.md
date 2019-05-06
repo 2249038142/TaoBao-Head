@@ -1,5 +1,5 @@
 # TaoBao-Head
-    初学Javascript后，写了一个淘宝首页的静态网页
+  初学Javascript后，写了一个淘宝首页的静态网页
     ![ImageHead](https://github.com/2249038142/TaoBao-Head/blob/master/imageShow/head1.png)
     写了一些简单功能
     1.轮播图（左右轮播，上下轮播，点击圆点到指定页）
